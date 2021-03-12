@@ -1,0 +1,12 @@
+.blogs {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.fa-plus {
+	font-size: 14px !important;
+}
+
+.blogs > a {
+	text-decoration: none;
+}

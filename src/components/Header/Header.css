@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #3b424c;
+	color: white;
+	box-shadow: 0px 4px 18px 1px rgb(0 0 0 / 50%),
+		0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.header__left > a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.header__left > a:hover {
+	text-decoration: underline;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+
+.header__icons {
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.header__icons > a > i {
+	margin-right: 15px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.header__icons > a > i:hover {
+	opacity: 0.7;
+}
+
+.header__avatar {
+	object-fit: contain;
+	height: 35px !important;
+	width: 35px !important;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-left: 10px;
+	margin-right: -20px;
+}
